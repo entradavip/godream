@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+      <meta http-equiv="Cache-control" content="public">
+      <title>GO Dream</title>
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+      <link href="assets/css/slick-theme.css" rel="stylesheet" type="text/css">
+      <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+      <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/lib/plyr/plyr.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">    
+   </head>
+   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+      <main>
+         <div class="page-loader">
+            <div class="loader">Carregando...</div>
+         </div>
+         <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent mobile-menu" role="navigation">
+            <container>
+               <div align="center" class="navbar-header1"> <a class="navbar-brand1"><img src="assets/images/logo.png" width="227" height="35"></a></div>
+               <a href="#" class="menu-open menu3" title="Open Menu"><img src="assets/images/menu.png"></a>
+               <div class="menu-overlay"></div>
+               <div class="side-menu-wrapper">
+                  <a href="#" class="menu-close"><img src="assets/images/x-icon.png"></a> <br>
+                  <ul>
+                     <li>
+                        <h2 class="module-title font-alt">Menu</h2>
+                        <hr align="left" class="verdinho">
+                     </li>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about">Conteúdos</a></li>
+                     <li><a href="#destaques">Notícias</a></li>
+                     <li><a href="#">Tabelas e Estatísticas</a></li>
+                     <li><a href="#ultimos-jogos">Meus Times</a></li>
+                     <li><a href="#escolha-clube">Programação</a></li>
+                     <li><a href="minha-conta.html">Minha Conta</a></li>
+                     <li><a href="#">Sair</a></li>
+                  </ul>
+               </div>
+               <form id="demo-2"> <input type="search" placeholder="Buscar"></form>
+            </container>
+         </nav>
+         <div class="navbar navbar-fixed-top navbarzinho desktop-menu">
+            <nav class="navbar container navbar-custom navbar-fixed-top navbar-transparent desktop-menu" role="navigation">
+               <container>
+                  <div align="left" class="navbar-header1 logo-desktop-fix"> <a class="navbar-brand1"><img src="assets/images/logo.png" width="227" height="35"></a>
+                  <span class="navbar-header1">
+                     <span class="menu-desktop">
+                        <a class="menu-desktop-a" href="#home">Home</a>
+                        <a class="menu-desktop-a" href="#about">Conteúdos</a>
+                        <a class="menu-desktop-a" href="#destaques">Notícias</a>
+                     <!-- <a class="menu-desktop-a" href="#">Tabelas e Estatísticas</a>
+                        <a class="menu-desktop-a" href="#ultimos-jogos">Meus Times</a>
+                        <a class="menu-desktop-a" href="#escolha-clube">Programação</a>
+                        <a class="menu-desktop-a" href="minha-conta.html">Minha Conta</a>
+                        <a class="menu-desktop-a" href="#">Sair</a>-->
+                        <div class="carrinho">
+                           <img src="assets/images/carrinho.png">
+                        </div>
+                     </span>
+                  </span>
+               </div>
+                  <!--<form id="demo-2" class="search-desktop-fix"> <input type="search" placeholder="Buscar"></form>-->
+               </container>
+            </nav>
+         </div>
+         <section class="module" id="lances">
+            <div class="container" style="padding: 0">
+               <div class="row" style="margin: 0">
+                  <div class="col-sm-12 col-sm-offset-0"><br>
+                     <!--<h2 class="module-title font-alt">E aí Aleixo, o que você quer assistir hoje?</h2>-->
+                  </div>
+               </div>
+
+               <section class="responsible2 mt-20">
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/congressos.png"></a></div>
+                        <p class="thumb-txt-in">Congressos e Simpósios</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/esporte.png"></a></div>
+                        <p class="thumb-txt-in">Esportes</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/shows.png"></a></div>
+                        <p class="thumb-txt-in">Shows</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/teatro.png"></a></div>
+                        <p class="thumb-txt-in">Teatro e Cinema</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/corridas-virtuais.png"></a></div>
+                        <p class="thumb-txt-in">Corridas Virtuais</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/gastronomia.png"></a></div>
+                        <p class="thumb-txt-in">Gastronomia</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/congressos.png"></a></div>
+                        <p class="thumb-txt-in">Congressos e Simpósios</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/esporte.png"></a></div>
+                        <p class="thumb-txt-in">Esportes</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/shows.png"></a></div>
+                        <p class="thumb-txt-in">Shows</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/teatro.png"></a></div>
+                        <p class="thumb-txt-in">Teatro e Cinema</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/corridas-virtuais.png"></a></div>
+                        <p class="thumb-txt-in">Corridas Virtuais</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/gastronomia.png"></a></div>
+                        <p class="thumb-txt-in">Gastronomia</p>
+                     </div>
+                  </div>
+                  <div class="features-item">
+                     <div class="features-icon">
+                        <div class="thumb-img2"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/gastronomia.png"></a></div>
+                        <p class="thumb-txt-in">Gastronomia</p>
+                     </div>
+                  </div>
+                </section>
+            </div>
+         </section>
+         <section class="home-section destaque" id="home">
+            <div class="hero-slider">
+               <ul class="slides">
+                  <li class="bg-dark" style="background-image:url(assets/images/slideshow/rally-sertoes.jpg);">
+                     <div class="titan-caption">
+                        <div class="caption-content">
+                           <div class="font-alt mb-40 titan-title-size-4 text-shadow">Juventus x Barcelona</div>
+                           <div class="font-alt titan-title-size-1 text-shadow">Champions League</div>
+                           <a class="section-scroll btn btn-border-w btn-round" href="#">Assista agora!</a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="bg-dark" style="background-image:url(assets/images/slideshow/vidcon.jpg);">
+                     <div class="titan-caption">
+                        <div class="caption-content">
+                           <div class="font-alt mb-40 titan-title-size-4 text-shadow">Peru x Brasil</div>
+                           <div class="font-alt titan-title-size-1 text-shadow">Eliminatórias da Copa do Mundo</div>
+                           <a class="section-scroll btn btn-border-w btn-round" href="#">Assista agora!</a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="bg-dark" style="background-image:url(assets/images/slideshow/rally-sertoes.jpg);">
+                     <div class="titan-caption">
+                        <div class="caption-content">
+                           <div class="font-alt mb-40 titan-title-size-4 text-shadow">Portugal x Espanha</div>
+                           <div class="font-alt titan-title-size-1 text-shadow">Nations League</div>
+                           <a class="section-scroll btn btn-border-w btn-round" href="#">Assista agora!</a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <div class="main mt-20">
+            <section class="module" id="lances">
+               <div class="container" style="padding: 0">
+                  <div class="row" style="margin: 0">
+                     <div class="col-sm-12 col-sm-offset-0">
+                        <h2 class="module-title font-alt">Ao vivo agora</h2>
+                        <hr align="left" class="verdinho">
+                     </div>
+                  </div>
+
+                  <section class="responsible mt-20">
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/noruega-romenia.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Noruega 4 x 0 Romênia</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/bayern-barcelona.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Barcelona 2 x 7 Bayern</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/city-lyon.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Man City 1 x 3 Lyon</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/psg-leipzig.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">PSG 3 x 0 RB Leipzig</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/noruega-romenia.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Noruega 4 x 0 Romênia</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/noruega-romenia.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Noruega 4 x 0 Romênia</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="Noruega x Inglaterra"><img src="assets/images/thumbs/noruega-romenia.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt">
+                           <h3 class="features-title">Noruega 4 x 0 Romênia</h3>
+                           <!--<p></p>-->
+                        </div>
+                     </div>
+                   </section>
+               </div>
+            </section>
+            <section class="module mt-sm-60" id="proximos-jogos">
+               <div class="container" style="padding: 0">
+                  <div class="row" style="margin: 0">
+                     <div class="col-sm-12 col-sm-offset-0">
+                        <h2 class="module-title font-alt">Últimos Lances</h2>
+                        <hr align="left" class="verdinho">
+                     </div>
+                  </div>
+                  <section class="responsible mt-20">
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/nor1.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">72' Gol da Noruega!</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                           <!--<p class="contagem">● AO VIVO</p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/nor3.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">68' Lance Perigoso</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                           <!--<p class="contagem">● AO VIVO</p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/nor2.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">60' Gol da Noruega!</h3>
+                           <p>Labore et dolore magna aliqua.</p>
+                           <!--<p class="contagem">● AO VIVO</p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/nor1.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">54' Na Trave!</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                           <!--<p class="contagem">● AO VIVO</p>-->
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/nor2.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">45' Não Valeu.</h3>
+                           <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                           <!--<p class="contagem">● AO VIVO</p>-->
+                        </div>
+                     </div>
+                   </section>
+               </div>
+            </section>
+            <section class="module mt-sm-60" id="melhores-momentos">
+               <div class="container" style="padding: 0">
+                  <div class="row" style="margin: 0">
+                     <div class="col-sm-12 col-sm-offset-0">
+                        <h2 class="module-title font-alt">Escolhidos do EI PLUS</h2>
+                        <hr align="left" class="verdinho">
+                     </div>
+                  </div>
+                  <br>
+                  <div class="col-sm-4 col-sm-offset-0 col-xs-6">
+                              <a href="#" alt="ABC X Vitória"><img class="borda-redonda" src="assets/images/thumbs/guardiola.jpg"></a>
+                           <div class="thumb-txt">
+                              <h3 class="features-title">O Melhor do Tiki-Taka de Guardiola</h3>
+                              <!--<p> Copa do Nordeste <br> <strong class="bold-txt">24/10/2018</strong></p>-->
+                           </div>
+                     </div>
+                     <div class="col-sm-4 col-sm-offset-0 col-xs-6">
+                             <a href="#" alt="ABC X Vitória"><img class="borda-redonda" src="assets/images/thumbs/guardiola.jpg"></a>
+                           <div class="thumb-txt">
+                              <h3 class="features-title">O Melhor do Tiki-Taka de Guardiola</h3>
+                              <!--<p> Copa do Nordeste <br> <strong class="bold-txt">24/10/2018</strong></p>-->
+                           </div>
+                     </div>
+                     <div class="col-sm-4 col-sm-offset-0 col-xs-6">
+                              <a href="#" alt="ABC X Vitória"><img class="borda-redonda" src="assets/images/thumbs/guardiola.jpg"></a>
+                           <div class="thumb-txt">
+                              <h3 class="features-title">O Melhor do Tiki-Taka de Guardiola</h3>
+                              <!--<p> Copa do Nordeste <br> <strong class="bold-txt">24/10/2018</strong></p>-->
+                           </div>
+                     </div>
+               </div>
+            </section>
+            <br>
+            <section class="module mt-sm-60" id="proximos-jogos">
+               <div class="container" style="padding: 0">
+                  <div class="row" style="margin: 0">
+                     <div class="col-sm-12 col-sm-offset-0">
+                        <h2 class="module-title font-alt">Trilho 01</h2>
+                        <hr align="left" class="verdinho">
+                     </div>
+                  </div>
+                  <section class="responsible mt-20">
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                   </section>
+               </div>
+            </section>
+            <br>
+            <section class="module mt-sm-60" id="proximos-jogos">
+               <div class="container" style="padding: 0">
+                  <div class="row" style="margin: 0">
+                     <div class="col-sm-12 col-sm-offset-0">
+                        <h2 class="module-title font-alt">Trilho 02</h2>
+                        <hr align="left" class="verdinho">
+                     </div>
+                  </div>
+                  <section class="responsible mt-20">
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                     <div class="features-item">
+                        <div class="features-icon">
+                           <div class="thumb-img"> <a href="#" alt="nor1"><img src="assets/images/thumbs/champions.jpg"></a></div>
+                        </div>
+                        <div class="thumb-txt font-alt">
+                           <h3 class="features-title">Champions League</h3>
+                        </div>
+                     </div>
+                   </section>
+               </div>
+            </section>
+            <hr class="divider-w">
+            <br> 
+            <footer class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div align="center" class="col-sm-12 padding-footer">
+                        <div class="footer-social-links"> <a href="#"><img class="clientes-icons" src="assets/images/youtube.png"></a> <a href="#"><img class="clientes-icons" src="assets/images/facebook.png"></a> <a href="#"><img class="clientes-icons" src="assets/images/instagram.png"></a> <a href="#"><img class="clientes-icons" src="assets/images/twitter.png"></a></div>
+                     </div>
+                     <div align="center" class="col-sm-12">
+                        <p class="copyright fonte-pequena"><a href="#">Ajuda</a>&nbsp;&nbsp;&nbsp;<a href="#">Termos e Condições</a>&nbsp;&nbsp;&nbsp;<a href="#">Política de Privacidade</a>&nbsp;&nbsp;&nbsp;</p>
+                        <br>
+                        <p class="copyright fonte-pequena">eiplus.com.br © 2020 - Todos os direitos Reservados</p>
+                        <div class="logo-fim" align="center"><img src="assets/images/eiplus.png"></div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </div>
+         <div class="scroll-up"><a href="#totop">↑</a></div>
+      </main>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script defer src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+       <script src="assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+       <script src="assets/js/slick-config.js" type="text/javascript" charset="utf-8"></script>
+       <script defer src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+       <script async src="assets/lib/flexslider/jquery.flexslider.js"></script>
+       <script src="assets/lib/smoothscroll.js"></script>
+       <script async src="assets/js/plugins.js"></script>
+       <script async src="assets/js/main.js"></script>
+       <script async src="assets/js/menu.js"></script>
+       <script type="text/javascript">const player=new Plyr('#player',{settings:[]});</script>
+       <script src="assets/lib/lozad/lozad.js"></script>
+       <script>const observer=lozad();observer.observe();</script> 
+   </body>
+</html>
